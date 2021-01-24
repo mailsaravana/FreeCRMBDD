@@ -16,8 +16,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class) 
 @CucumberOptions(
-		features = "/Users/Admin/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/login.feature"
-		,glue={"stepDefinitions"}
+		features = "src/main/java/Features" ,glue={"src/main/stepDefinitions"}
 	//	,format = {"pretty","html:test-output"}
 		
 		) 
